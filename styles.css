@@ -1,0 +1,73 @@
+:root {
+    --p-margin-bottom: 5px;
+    --input-margin-bottom: 10px;
+    --input-padding: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-top: 180px;
+    margin-left: 35vw;
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+    background-color: rgb(37, 158, 158);
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+#calculator p {
+    margin-bottom: var(--p-margin-bottom);
+}
+
+#bill-amount {
+    margin-bottom: var(--input-margin-bottom);
+    padding: var(--input-padding);
+}
+
+#service-quality {
+    margin-bottom: var(--input-margin-bottom);
+    padding: var(--input-padding);
+}
+
+#people-amount {
+    margin-bottom: var(--input-margin-bottom);
+    padding: var(--input-padding);
+}
+
+#calculate {
+    display: block;
+    text-align: center;
+    padding: 7px;
+    background: rgb(48, 143, 167);
+    border: 1px solid rgb(48, 143, 167);
+    border-radius: 3px;
+    color: white;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#calculate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px black;
+}
+
+#calculate:active {
+    transform: translateY(-1px);
+    box-shadow: 0 2.5px 5px black;
+}
+
+#total {
+    margin-bottom: var(--input-margin-bottom);
+}
